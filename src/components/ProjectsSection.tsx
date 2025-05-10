@@ -4,31 +4,31 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: "Digital Brand Platform",
-    category: "WEB DESIGN",
+    title: "SportsHunt",
+    category: "Entrepreneurship",
     description: "A comprehensive digital branding platform for emerging businesses with analytics and marketing tools.",
     year: "2023"
   },
   {
     id: 2,
-    title: "AR Product Visualizer",
-    category: "MOBILE APP",
+    title: "Story MeeMaw",
+    category: "Entrepreneurship",
     description: "Augmented reality application for visualizing products in real-world environments before purchase.",
-    year: "2022"
+    year: "2025"
   },
   {
     id: 3,
-    title: "Financial Analytics Dashboard",
-    category: "WEB APPLICATION",
+    title: "RAG CHATBOT",
+    category: "AI",
     description: "Interactive dashboard for visualizing complex financial data and market trends with predictive insights.",
-    year: "2023"
+    year: "2025"
   },
   {
     id: 4,
-    title: "Smart Home Control System",
-    category: "IOT PRODUCT",
+    title: "Outlook Reacher",
+    category: "Automation",
     description: "Integrated system for managing home devices with AI-powered optimization and energy-saving features.",
-    year: "2021"
+    year: "2025"
   }
 ];
 
@@ -71,14 +71,14 @@ const ProjectsSection = () => {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <a 
             href="#" 
             className="brutalist-border inline-block px-8 py-4 hover:bg-neon hover:text-dark transition-colors"
           >
             VIEW ALL PROJECTS
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

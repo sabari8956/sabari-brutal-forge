@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="mb-8">
           <div className="h-[2px] w-16 bg-neon mb-4"></div>
-          <h4 className="text-xl md:text-2xl font-pixel">PORTFOLIO_2024</h4>
+          <h4 className="text-xl md:text-2xl font-pixel">the solution to all  problems</h4>
         </div>
         
         <h1 
